@@ -30,6 +30,18 @@
     font-weight: 700;
 }
 
+.description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
 /* nav styles */
 nav {
     display: flex;
@@ -45,7 +57,6 @@ nav ul li {
 .btn-sign-in:hover {
     background-color: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    ;
 }
 
 .btn-sign-in {
@@ -117,18 +128,52 @@ nav ul li {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
-    width: 302px;
+    /* width: 302px; */
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 32px;
 }
 
-.pillars-title {
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 20px;
-    font-weight: 700;
+/* The vision of future */
+.vision-of-future {
+    margin: 0px 160px 32px 160px;
 }
 
-.pillars-description {
-    color: rgba(14, 14, 14, 0.7);
+.future-margin {
+    margin-top: 24px;
+}
+
+.future-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.future {
+    border-radius: 16px;
+    padding: 32px;
+    /* width: 410.67px; */
+    margin-top: 32px;
+}
+
+.btn-future {
+    color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;;
+    cursor: pointer;
+}
+.btn-future:hover{
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+}
+.btn-future-01{
+    background-color: rgb(84, 144, 245);
+}
+.btn-future-02{
+    background-color: rgb(9, 161, 92);
+}
+.btn-future-03{
+    background-color: rgb(255, 194, 57);
 }
