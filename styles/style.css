@@ -163,7 +163,6 @@ nav ul li {
     padding: 11px 20px 11px 20px;
     border: none;
     border-radius: 8px;
-    ;
     cursor: pointer;
 }
 
@@ -226,7 +225,6 @@ nav ul li {
 
 .recent-title {
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -237,9 +235,131 @@ nav ul li {
     border-radius: 24px;
     width: 408px;
 }
-.date-time{
+
+.date-time {
     display: flex;
     gap: 12px;
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+/* donate-money */
+.donation {
+    margin: 56px 160px 80px 160px;
+}
+
+.donate-money {
+    text-align: center;
+    padding: 0px 88px 0px 88px;
+}
+
+.donation-amount {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.amount {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    font-size: 34px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+
+.amount-2 {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 40px;
+    font-size: 34px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+
+.amount:hover {
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+}
+
+.amount-2:hover {
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.write-amount {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 600;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Subscription */
+.subscription {
+    margin: 0px 160px 80px 160px;
+}
+
+.finalization {
+    text-align: center;
+    padding: 80px 260px 80px 260px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.Subscribe{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+.aims{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+input[type="email"]::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+input[type="email"]{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    border: none;
+    width: 100%;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscribe-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 106, 80);
+}
+.subscribe-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
 }
